@@ -3,7 +3,7 @@ import axios from 'axios';
 export const CREATED = 201;
 
 export const apiInstance = axios.create({
-  baseURL: 'http://localhost:3006/api/v1/'
+  baseURL: 'http://localhost:8000/api/v1/'
 });
 
 

@@ -30,7 +30,7 @@ class RegistrationContainer extends Component {
     try {
       let response = await userRegisteration(user);
     } catch (e) {
-      // console.log(e);
+      console.log(e);
     }
   }
 
